@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Graphical User Interface Command Pattern",
+    "number": "US Patent No. 11,163,590",
+    "description": "Systems, methods, and computer program products for graphical user interface command patterns. Receives a change request to a GUI, generates a discrete command, temporarily renders the change using local data, and in parallel retrieves backend data. Updates the interface based on any delta between local and backend data for real-time, robust UI updates."
+  },
+  {
+    "title": "Machine Learning Enabled Supplier Monitor",
+    "number": "US Patent No. 11,727,334",
+    "description": "A method using machine learning to monitor supplier risk and objectives affected by incidents. Automatically detects risk changes, analyzes costs and risks of replacing suppliers, and generates electronic documents to address enterprise needs. Enables proactive, data-driven supplier management."
+  },
+  {
+    "title": "Efficient Cloud Computing Resource Usage",
+    "number": "US Patent No. 12,271,393",
+    "description": "A unified data processing framework that enables efficient integration and processing of data from multiple source systems, each using different API specifications. The cloud processing layer parses, converts, and stores all incoming data in a universal, metadata-driven format within cloud storage. This allows for seamless, efficient retrieval and cross-referencing of information across diverse sources in response to user queries, optimizing cloud resource usage."
+  },
+  {
+    "title": "Selective Virtual Private Network",
+    "number": "US Patent No. 12,432,180",
+    "description": "A selective VPN system that establishes connections for specific application groups. Some applications' traffic is routed through a VPN, while others bypass it. The system uses a proxy to manage connections between client and VPN server, ensuring only selected network packets are securely tunneled, while others remain outside the VPN."
+  }
+]

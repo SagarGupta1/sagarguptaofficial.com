@@ -1,0 +1,32 @@
+[
+  {
+    "title": "AI-Driven Anomaly Detection for Enhanced Business Process Orchestration",
+    "publisher": "Springer · Dec 28, 2025",
+    "description": "In this paper, we demonstrate the application of Anomaly Detection using a multi-level Business Process Orchestration framework while considering the current state of technology and the business environment."
+  },
+  {
+    "title": "Advancing Carbon-Efficient Software Development: A Sustainable Path Forward",
+    "publisher": "ACM · Jan 3, 2025",
+    "description": "This paper proposes a PEFT (Parameter Efficient Fine-Tuning) Large Language Model (LLM) to assist developers in selecting libraries that are not only functional but also sustainable and secure. The solution includes creating detailed library profiles based on energy consumption, performance, and typical use cases. This is followed by a comparative analysis using Multi-Criteria Decision Analysis (MCDA) to rank libraries and provide real-time recommendations during the development process."
+  },
+  {
+    "title": "Optimising the Carbon Footprint for Cloud Resources in a Cloud Environment",
+    "publisher": "IEEE · Jun 4, 2024",
+    "description": "In this paper, we discuss an approach through which, by analysing the bills of popular service providers, we can propose suggestions to the IT admins to reduce their carbon footprints by providing them with projections so that IT admins can understand the impact of their cloud resources on the environment on a year-to-year basis."
+  },
+  {
+    "title": "Open-Source Software Security Challenges and Policies for Cloud Enterprises",
+    "publisher": "IEEE · Jan 19, 2023",
+    "description": "The digital universe paused because these zero-day vulnerabilities exploded as an outcome. In this work, we will highlight challenges and propose an approach to help organisations protect the code base by safely consuming the Open Source."
+  },
+  {
+    "title": "Command Pattern Design For Web Application",
+    "publisher": "Springer · Feb 20, 2020",
+    "description": "Enabling client interfaces to handle such complex business processes is of great importance for some business scenarios, like in the case of collaborative user interface designing where data representation and data insertion are not the sole purpose of the Web applications. Adapting design patterns like \"Command Pattern\" can make the Web client smarter and more efficient."
+  },
+  {
+    "title": "Single Sign-On Beyond Corporate Boundaries",
+    "publisher": "IEEE · Apr 30, 2019",
+    "description": "This paper discusses the idea of creating a cloud-based single sign-on platform that can be used to seamlessly connect any device, be it personal or professional, to the corporate network without worrying about the data security and IP infringement issues. This brings new definition to the Bring-Your-Own-Device (BYOD) policies adopted by many organizations."
+  }
+]
