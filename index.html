@@ -1,4 +1,4 @@
-<\!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -41,8 +41,8 @@
   <body>
     <div data-theme="default">
 
-      <\!-- NAV -->
-      <header class="sticky top-0 z-50 bg-base-100/90 backdrop-blur border-b border-base-200">
+      <!-- NAV -->
+      <header class="sticky top-0 z-50 bg-base-100" style="box-shadow:0 1px 4px rgba(0,0,0,.10)">
         <nav class="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-between h-16">
           <a href="#hero" class="flex items-center gap-3 -m-1.5 p-1.5">
             <img src="assets/logo.png" alt="Sagar Gupta" class="h-8 w-auto" />
@@ -94,7 +94,7 @@
         </el-dialog>
       </header>
 
-      <\!-- HERO -->
+      <!-- HERO -->
       <section id="hero" class="relative overflow-hidden bg-base-100 pt-20 pb-24 sm:pt-28 sm:pb-32">
         <div class="absolute inset-0 z-0 pointer-events-none">
           <div class="absolute -top-40 left-1/2 -translate-x-1/2 aspect-[1155/678] w-[36rem] rotate-[30deg] bg-gradient-to-tr from-primary/20 to-secondary/20 opacity-30 blur-3xl sm:w-[72rem]"></div>
@@ -102,28 +102,27 @@
         </div>
         <div class="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
           <div class="flex flex-col items-center gap-10 md:flex-row md:items-center md:gap-16">
-            <div class="shrink-0">
-              <div class="w-44 h-44 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-2xl outline outline-4 outline-primary/30">
-                <img src="assets/sagar-gupta-author.png" alt="Sagar Gupta" class="w-full h-full object-cover object-top" />
+            <div style="flex-shrink:0">
+              <div style="width:6rem;height:6rem;border-radius:9999px;overflow:hidden;box-shadow:0 10px 25px -5px rgba(0,0,0,.18);outline:2px solid oklch(var(--p)/.25);outline-offset:2px">
+                <img src="assets/sagar-gupta-author.png" alt="Sagar Gupta" style="width:100%;height:100%;object-fit:cover;object-position:top" />
               </div>
             </div>
             <div class="flex flex-col items-center text-center md:items-start md:text-left">
               <span class="tag-badge mb-4">AI · Security · Cloud</span>
-              <h1 class="text-4xl sm:text-6xl font-bold tracking-tight text-base-content">Sagar Gupta</h1>
-              <p class="mt-3 text-lg sm:text-2xl font-medium text-primary">AI Engineer · Security Practitioner · Cloud Architect</p>
-              <p class="mt-5 text-base sm:text-lg text-base-content-secondary max-w-2xl">
-                14+ years building transformative enterprise technology at the intersection of artificial intelligence, cybersecurity, and cloud architecture. Inventor of 4 US patents, published researcher, and author of <em>Sustainable Enterprise Integration</em>.
+              <h1 style="font-size:3rem;font-weight:700;letter-spacing:-0.02em;line-height:1.1" class="text-base-content">Sagar Gupta</h1>
+              <p style="margin-top:0.75rem;font-size:1.2rem;font-weight:600" class="text-primary">AI Engineer &middot; Security Practitioner &middot; Cloud Architect</p>
+              <p style="margin-top:1.25rem;font-size:1.05rem;line-height:1.7;max-width:38rem" class="text-base-content-secondary">
+                Senior engineering leader with 14+ years designing secure, AI-driven enterprise systems at scale. Holder of 4 granted US patents with 7 more under review, author of <em>Sustainable Enterprise Integration</em>, and published researcher at IEEE, ACM, and Springer.
               </p>
               <div class="mt-8 flex flex-wrap gap-4 justify-center md:justify-start">
-                <a href="#about" class="rounded-md bg-primary px-6 py-3 text-base font-semibold text-primary-content shadow-md hover:bg-primary/90 transition-colors">About Me</a>
+                <a href="https://www.linkedin.com/in/sagarguptaofficial/" target="_blank" rel="noopener noreferrer"
+                   class="rounded-md bg-primary px-6 py-3 text-base font-semibold text-primary-content shadow-md hover:bg-primary/90 transition-colors" style="display:inline-flex;align-items:center;gap:0.5rem">
+                  <svg style="width:1.1rem;height:1.1rem;flex-shrink:0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                  LinkedIn
+                </a>
                 <a href="https://scholar.google.com/citations?user=7nkPfU8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer"
                    class="rounded-md border border-base-border bg-base-200 px-6 py-3 text-base font-semibold text-base-content hover:bg-base-300 transition-colors">
                   Google Scholar
-                </a>
-                <a href="https://www.linkedin.com/in/sagarguptaofficial/" target="_blank" rel="noopener noreferrer"
-                   class="rounded-md border border-base-border bg-base-200 px-6 py-3 text-base font-semibold text-base-content hover:bg-base-300 transition-colors flex items-center gap-2">
-                  <img src="assets/linkedIn.png" alt="" class="h-5 w-5 object-contain" aria-hidden="true" />
-                  LinkedIn
                 </a>
               </div>
             </div>
@@ -131,7 +130,7 @@
         </div>
       </section>
 
-      <\!-- STATS -->
+      <!-- STATS -->
       <section class="bg-base-200 section-divider">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 py-12">
           <dl class="grid grid-cols-2 gap-y-10 gap-x-8 sm:grid-cols-4 text-center">
@@ -140,8 +139,8 @@
               <dt class="mt-1 text-sm text-base-content-secondary font-medium">Years of Experience</dt>
             </div>
             <div>
-              <dd class="text-4xl font-bold text-primary">4</dd>
-              <dt class="mt-1 text-sm text-base-content-secondary font-medium">Granted US Patents</dt>
+              <dd class="text-4xl font-bold text-primary">4 <span style="font-size:1.1rem;font-weight:500;opacity:.7">+7</span></dd>
+              <dt class="mt-1 text-sm text-base-content-secondary font-medium">US Patents <span style="display:block;font-size:0.7rem;opacity:.65">(4 granted · 7 pending)</span></dt>
             </div>
             <div>
               <dd class="text-4xl font-bold text-primary">6+</dd>
@@ -155,7 +154,7 @@
         </div>
       </section>
 
-      <\!-- ABOUT -->
+      <!-- ABOUT -->
       <section id="about" class="relative overflow-hidden py-24 sm:py-32 bg-base-100 section-divider">
         <div class="absolute inset-0 z-0 pointer-events-none">
           <div class="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-primary/8 blur-3xl"></div>
@@ -183,7 +182,7 @@
                 </a>
                 <a href="https://www.linkedin.com/in/sagarguptaofficial/" target="_blank" rel="noopener noreferrer"
                    class="inline-flex items-center gap-2 rounded-lg border border-base-border px-4 py-2.5 text-sm font-semibold text-base-content hover:bg-base-200 transition-colors">
-                  <img src="assets/linkedIn.png" alt="" class="h-4 w-4 object-contain" aria-hidden="true" />
+                  <svg style="width:1rem;height:1rem;flex-shrink:0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                   LinkedIn
                 </a>
               </div>
@@ -242,7 +241,7 @@
         </div>
       </section>
 
-      <\!-- RESEARCH -->
+      <!-- RESEARCH -->
       <section id="research" class="relative overflow-hidden py-24 sm:py-32 bg-base-200 section-divider">
         <div class="absolute inset-0 z-0 pointer-events-none">
           <div class="absolute -top-24 -left-24 h-96 w-96 rounded-full bg-primary/10 blur-3xl"></div>
@@ -296,7 +295,7 @@
         </div>
       </section>
 
-      <\!-- PATENTS -->
+      <!-- PATENTS -->
       <section id="patents" class="relative overflow-hidden py-24 sm:py-32 bg-base-100 section-divider">
         <div class="absolute inset-0 z-0 pointer-events-none">
           <div class="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-primary/10 blur-3xl"></div>
@@ -306,7 +305,7 @@
           <div class="max-w-2xl mb-14">
             <p class="text-base font-semibold text-primary">Intellectual Property</p>
             <h2 class="mt-2 text-4xl font-semibold tracking-tight text-base-content sm:text-5xl">US Patents</h2>
-            <p class="mt-5 text-lg text-base-content-secondary">Four granted US patents covering enterprise AI, cloud efficiency, networking security, and GUI design — reflecting a career-long commitment to real-world innovation.</p>
+            <p class="mt-5 text-lg text-base-content-secondary">4 granted US patents covering enterprise AI, cloud efficiency, networking security, and GUI design — with 7 additional applications currently under review.</p>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="flex flex-col p-6 rounded-xl bg-base-200 outline outline-1 outline-base-border card-hover">
@@ -348,20 +347,20 @@
         </div>
       </section>
 
-      <\!-- BOOK -->
+      <!-- BOOK -->
       <section id="books" class="relative overflow-hidden py-24 sm:py-32 bg-base-200 section-divider">
         <div class="absolute inset-0 z-0 pointer-events-none">
           <div class="absolute -top-24 -left-32 h-72 w-72 rounded-full bg-primary/15 blur-3xl"></div>
           <div class="absolute bottom-0 -right-24 h-80 w-80 rounded-full bg-secondary/15 blur-2xl"></div>
         </div>
         <div class="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
-          <div class="max-w-2xl mb-14">
+          <div class="max-w-2xl" style="margin-bottom:3.5rem">
             <p class="text-base font-semibold text-primary">Authored Work</p>
             <h2 class="mt-2 text-4xl font-semibold tracking-tight text-base-content sm:text-5xl">Book</h2>
           </div>
-          <div class="flex flex-col md:flex-row gap-12 items-start">
-            <div class="shrink-0 flex justify-center md:justify-start">
-              <img src="assets/book-cover.png" alt="Sustainable Enterprise Integration book cover" class="w-48 md:w-56 lg:w-64 rounded-xl shadow-2xl border border-base-border" />
+          <div style="display:flex;flex-wrap:wrap;gap:3rem;align-items:flex-start">
+            <div style="flex-shrink:0">
+              <img src="assets/book-cover.png" alt="Sustainable Enterprise Integration book cover" style="width:11rem;border-radius:0.75rem;box-shadow:0 20px 40px -8px rgba(0,0,0,.3);border:1px solid oklch(var(--b3,0.922 0 0))" />
             </div>
             <div class="flex-1">
               <h3 class="text-3xl font-bold text-base-content">Sustainable Enterprise Integration</h3>
@@ -400,7 +399,7 @@
         </div>
       </section>
 
-      <\!-- CONTACT -->
+      <!-- CONTACT -->
       <section id="contact" class="relative overflow-hidden py-24 sm:py-32 bg-base-100 section-divider">
         <div class="absolute inset-0 z-0 pointer-events-none">
           <div class="absolute -top-32 left-1/2 -translate-x-1/2 h-96 w-96 rounded-full bg-primary/10 blur-3xl"></div>
@@ -409,24 +408,48 @@
           <p class="text-base font-semibold text-primary">Get in Touch</p>
           <h2 class="mt-2 text-4xl font-semibold tracking-tight text-base-content sm:text-5xl">Connect with Sagar</h2>
           <p class="mt-5 text-lg text-base-content-secondary">
-            Interested in research collaboration, speaking engagements, or enterprise consulting? Reach out on LinkedIn or explore published work on Google Scholar.
+            Interested in research collaboration, speaking engagements, or enterprise consulting? Reach out on any of the platforms below.
           </p>
-          <div class="mt-10 flex flex-wrap gap-4 justify-center">
-            <a href="https://www.linkedin.com/in/sagarguptaofficial/" target="_blank" rel="noopener noreferrer"
-               class="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-base font-semibold text-primary-content shadow-md hover:bg-primary/90 transition-colors">
-              <img src="assets/linkedIn.png" alt="" class="h-5 w-5 object-contain brightness-0 invert" aria-hidden="true" />
-              Connect on LinkedIn
+          <!-- social icon row -->
+          <div style="display:flex;gap:1rem;justify-content:center;align-items:center;margin-top:2.5rem;flex-wrap:wrap">
+            <a href="https://www.linkedin.com/in/sagarguptaofficial/" target="_blank" rel="noopener noreferrer" title="LinkedIn"
+               style="display:flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border-radius:0.6rem;background:oklch(var(--b2));border:1px solid oklch(var(--b3,0.922 0 0));color:oklch(var(--bc));transition:background .15s" onmouseover="this.style.background='oklch(var(--b3))'" onmouseout="this.style.background='oklch(var(--b2))'">
+              <svg style="width:1.1rem;height:1.1rem" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              <span class="sr-only">LinkedIn</span>
             </a>
-            <a href="https://scholar.google.com/citations?user=7nkPfU8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer"
-               class="inline-flex items-center gap-2 rounded-lg border border-base-border bg-base-200 px-6 py-3 text-base font-semibold text-base-content hover:bg-base-300 transition-colors">
-              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
-              Google Scholar
+            <a href="https://x.com/Er_Sagar_Gupta" target="_blank" rel="noopener noreferrer" title="X / Twitter"
+               style="display:flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border-radius:0.6rem;background:oklch(var(--b2));border:1px solid oklch(var(--b3,0.922 0 0));color:oklch(var(--bc));transition:background .15s" onmouseover="this.style.background='oklch(var(--b3))'" onmouseout="this.style.background='oklch(var(--b2))'">
+              <svg style="width:1rem;height:1rem" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622Zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              <span class="sr-only">X / Twitter</span>
+            </a>
+            <a href="https://github.com/SagarGupta1" target="_blank" rel="noopener noreferrer" title="GitHub"
+               style="display:flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border-radius:0.6rem;background:oklch(var(--b2));border:1px solid oklch(var(--b3,0.922 0 0));color:oklch(var(--bc));transition:background .15s" onmouseover="this.style.background='oklch(var(--b3))'" onmouseout="this.style.background='oklch(var(--b2))'">
+              <svg style="width:1.1rem;height:1.1rem" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              <span class="sr-only">GitHub</span>
+            </a>
+            <a href="https://www.goodreads.com/author/show/68617948.Sagar_Gupta" target="_blank" rel="noopener noreferrer" title="Goodreads"
+               style="display:flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border-radius:0.6rem;background:oklch(var(--b2));border:1px solid oklch(var(--b3,0.922 0 0));color:oklch(var(--bc));transition:background .15s" onmouseover="this.style.background='oklch(var(--b3))'" onmouseout="this.style.background='oklch(var(--b2))'">
+              <svg style="width:1.1rem;height:1.1rem" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.43 23.995c-3.608-.208-6.274-2.077-6.448-5.078.695.007 1.375-.013 2.07-.006.224 1.342 1.065 2.43 2.497 3.083 1.352.612 2.826.55 4.13-.07 2.482-1.17 3.439-3.648 3.282-6.522v-1.24c-1.337 2.14-3.402 3.107-5.953 3.012-2.39-.09-4.484-1.048-5.862-3.11-1.385-2.076-1.638-4.353-1.275-6.735.322-2.11 1.2-3.975 2.81-5.477 1.7-1.587 3.742-2.25 6.04-2.22C17.86.69 20.815 3.837 21.406 8.03c.04.32.05.65.05.97V18.3c-.02 3.508-2.155 5.5-5.07 5.964-.93.06-1.87.023-2.956-.27zm.167-8.59c1.508-.045 2.745-.57 3.7-1.67.96-1.1 1.39-2.42 1.46-3.88.07-1.478-.257-2.863-1.107-4.08-1.49-2.147-4.648-2.8-6.777-1.34-1.976 1.35-2.71 3.35-2.65 5.67.04 1.42.38 2.72 1.18 3.86.99 1.41 2.42 1.51 4.194 1.44z"/></svg>
+              <span class="sr-only">Goodreads</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=7nkPfU8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar"
+               style="display:flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border-radius:0.6rem;background:oklch(var(--b2));border:1px solid oklch(var(--b3,0.922 0 0));color:oklch(var(--bc));transition:background .15s" onmouseover="this.style.background='oklch(var(--b3))'" onmouseout="this.style.background='oklch(var(--b2))'">
+              <svg style="width:1.1rem;height:1.1rem" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+              <span class="sr-only">Google Scholar</span>
+            </a>
+            <a href="mailto:sagar.om.gupta@gmail.com" title="Email"
+               style="display:flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border-radius:0.6rem;background:oklch(var(--b2));border:1px solid oklch(var(--b3,0.922 0 0));color:oklch(var(--bc));transition:background .15s" onmouseover="this.style.background='oklch(var(--b3))'" onmouseout="this.style.background='oklch(var(--b2))'">
+              <svg style="width:1.1rem;height:1.1rem" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/></svg>
+              <span class="sr-only">Email</span>
             </a>
           </div>
+          <p style="margin-top:1.25rem;font-size:0.9rem" class="text-base-content-secondary">
+            Email: <a href="mailto:sagar.om.gupta@gmail.com" style="font-weight:600;text-decoration:underline" class="text-base-content">sagar.om.gupta@gmail.com</a>
+          </p>
         </div>
       </section>
 
-      <\!-- FOOTER -->
+      <!-- FOOTER -->
       <footer class="bg-base-200 border-t border-base-border">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-6">
           <div class="flex items-center gap-3">
